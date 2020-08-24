@@ -1,3 +1,4 @@
 module.exports = {
-    greet: (name) => `Hello ${name}`
+    greet: (name) => `Hello ${name}`,
+    getTime: () => new Date()
 };
